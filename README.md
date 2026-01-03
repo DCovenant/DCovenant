@@ -28,4 +28,3 @@ AI Engineer building production ML systems at SISINT.
 ---
 
 💼 Open to remote opportunities (EU/US)
-```
