@@ -24,7 +24,7 @@ Building **production ML systems** that serve real users and deliver measurable 
 ## 🛠️ Tech Stack
 ```python
 skills = {
-    "ML/AI": ["PyTorch", "Transformers", "LangChain", "YOLO", "PaddleOCR"],
+    "ML/AI": ["PyTorch", "Transformers", "Tensorflow", "Keras", "Pytorch", "YOLO", "PaddleOCR"],
     "Engineering": ["Python", "C++", "Rust", "FastAPI", "Docker"],
     "Data": ["Elasticsearch", "PostgreSQL", "Redis", "Vector DBs"],
     "Domains": ["NLP", "Computer Vision", "RAG", "MLOps"]
@@ -38,7 +38,7 @@ skills = {
 **[Multi-RAG Chatbot](https://github.com/DCovenant/multi-rag-chatbot)**  
 `PyTorch` `Elasticsearch` `Llama 3.1` `FastAPI`
 
-Production-grade RAG with hybrid retrieval serving 100+ users
+Production-grade RAG with hybrid retrieval
 - Fine-tuned embeddings (bge-m3 + MRL)
 - <3s response time at 10k+ documents
 - Conversational memory + query rewriting
@@ -89,7 +89,6 @@ Cross-platform desktop app with real-time indexing
 
 | Metric | Value |
 |--------|-------|
-| Users served daily | 100+ |
 | Documents processed/month | 5,000+ |
 | Defect detection accuracy | 98% |
 | Annotation time reduction | 85% (40h → 8h) |
@@ -103,7 +102,7 @@ Cross-platform desktop app with real-time indexing
 ## 💼 Open to Opportunities
 
 🌍 **Location:** Porto, Portugal (Open to Remote EU/US)  
-🎯 **Looking for:** Senior AI/ML Engineer roles  
+🎯 **Looking for:** AI/ML Engineer roles  
 💡 **Focus:** Production ML systems, RAG, Computer Vision, MLOps
 
 ---
