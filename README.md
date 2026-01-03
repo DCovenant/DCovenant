@@ -45,16 +45,6 @@ Production-grade RAG with hybrid retrieval
 
 ---
 
-**[Encoder-Decoder from Scratch](https://github.com/DCovenant/smolEnconderDecoder)**  
-`Python` `NumPy` `LSTM` `Attention`
-
-Understanding LLM foundations by building seq2seq architecture
-- Custom backpropagation through time
-- Bahdanau attention mechanism
-- Teacher forcing & gradient descent from first principles
-
----
-
 **[MasterChief - ML Annotation Tool](https://github.com/DCovenant/MasterChief)**  
 `YOLO v4` `Qt` `OpenCV` `Active Learning`
 
@@ -72,6 +62,16 @@ Understanding LLM foundations by building seq2seq architecture
 
 Educational implementation demonstrating ML fundamentals  
 Custom optimization on Iris dataset with visualization
+
+---
+
+**[Encoder-Decoder from Scratch](https://github.com/DCovenant/smolEnconderDecoder)**  
+`Python` `NumPy` `LSTM` `Attention`
+
+Understanding LLM foundations by building seq2seq architecture
+- Custom backpropagation through time
+- Bahdanau attention mechanism
+- Teacher forcing & gradient descent from first principles
 
 ---
 
