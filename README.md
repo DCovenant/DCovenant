@@ -35,7 +35,7 @@ skills = {
 
 ### 🏆 Production Systems
 
-**[Multi-RAG Chatbot](https://github.com/DCovenant/multi-rag-chatbot)**  
+**[Multi-RAG Chatbot]([https://github.com/DCovenant/multi-rag-chatbot](https://github.com/DCovenant/RetrievalAugmentedGeneration))**  
 `PyTorch` `Elasticsearch` `Llama 3.1` `FastAPI`
 
 Production-grade RAG with hybrid retrieval
