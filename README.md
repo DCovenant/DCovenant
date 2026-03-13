@@ -46,6 +46,7 @@ Production-grade RAG with hybrid retrieval
 
 **[LangChain RAG](https://github.com/DCovenant/LangChain_RAG)**  
 `LangGraph` `Elasticsearch` `CrossEncoder` `NetworkX`
+
 Hybrid search RAG with multi-stage reranking and knowledge graph orchestration
 - 3-way retrieval fusion (BM25 + kNN + graph entity matching) with RRF
 - CrossEncoder + ColBERT reranking with table-title content linking
