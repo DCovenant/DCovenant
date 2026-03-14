@@ -19,9 +19,7 @@ I architect and ship end-to-end ML systems: OCR pipelines, hybrid search, LangGr
 ## What I Build
 
 ```
-  Documents ──► OCR Pipeline ──► Elasticsearch ──► Hybrid Retrieval ──► Reranker ──► LLM ──► Answer
-                (PaddleOCR)      (BM25 + kNN)       (RRF Fusion)      (CrossEncoder)
-                (Docling)         + Graph
+  Documents  ──►  Extract  ──►  Index  ──►  Retrieve  ──►  Rerank  ──►  Generate  ──►  Answer
 ```
 
 | Area | What |
