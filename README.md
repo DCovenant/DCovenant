@@ -1,125 +1,125 @@
-# Hi, I'm Vasco 👋
-
 <div align="center">
 
-**AI Engineer @ SISINT** | Building Production ML Systems
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+SISINT;RAG+%7C+Document+Intelligence+%7C+Retrieval+Systems;Building+ML+systems+that+ship+to+production" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vascoltcosta)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vascotkosta@gmail.com)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vascoltcosta)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vascotkosta@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=DCovenant&style=flat-square&color=58A6FF&label=Profile+Views)](https://github.com/DCovenant)
 
 </div>
 
----
+<br/>
 
-## 🚀 What I Do
+I architect and ship end-to-end ML systems: OCR pipelines, hybrid search, LangGraph orchestration, and observable RAG in daily production use. Strong foundation in Python, retrieval architecture, and high-performance engineering when the problem demands it.
 
-Building **production ML systems** that serve real users and deliver measurable impact:
+<br/>
 
-- 🤖 RAG architectures with hybrid retrieval (semantic + BM25)
-- 📄 Document intelligence (OCR pipelines processing 5k+ PDFs/month)
-- 👁️ Computer vision for industrial QC (98% defect detection)
-- ⚡ High-performance systems (C++/Rust when Python isn't fast enough)
+## What I Build
 
-## 🛠️ Tech Stack
-```python
-skills = {
-    "ML/AI": ["PyTorch", "Transformers", "Tensorflow", "Keras", "Pytorch", "YOLO", "PaddleOCR"],
-    "Engineering": ["Python", "C++", "Rust", "FastAPI", "Docker"],
-    "Data": ["Elasticsearch", "PostgreSQL", "Redis", "Vector DBs"],
-    "Domains": ["NLP", "Computer Vision", "RAG", "MLOps"]
-}
+```
+  Documents ──► OCR Pipeline ──► Elasticsearch ──► Hybrid Retrieval ──► Reranker ──► LLM ──► Answer
+                (PaddleOCR)      (BM25 + kNN)       (RRF Fusion)      (CrossEncoder)
+                (Docling)         + Graph
 ```
 
-## 🎯 Featured Projects
+| Area | What |
+|------|------|
+| **RAG & Retrieval** | Hybrid search: BM25 + semantic vectors + knowledge graph, RRF fusion, cross-encoder reranking |
+| **Document Intelligence** | OCR pipelines for scanned engineering PDFs, custom Elasticsearch analyzers for technical terminology |
+| **LLM Orchestration** | LangGraph state machines with type-safe schemas, LangSmith tracing, deterministic control flow |
+| **High-Performance** | C++/Qt and Rust when Python isn't fast enough |
 
-### 🏆 Production Systems
+<br/>
 
-**[Multi-RAG Chatbot](https://github.com/DCovenant/RetrievalAugmentedGeneration)**  
-`PyTorch` `Elasticsearch` `Llama 3.1` `FastAPI`
+## Featured Projects
 
-Production-grade RAG with hybrid retrieval
-- Fine-tuned embeddings (bge-m3 + MRL)
-- <3s response time at 10k+ documents
-- Conversational memory + query rewriting
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### [RetrievalAugmentedGeneration](https://github.com/DCovenant/RetrievalAugmentedGeneration)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**[LangChain RAG](https://github.com/DCovenant/LangChain_RAG)**  
-`LangGraph` `Elasticsearch` `CrossEncoder` `NetworkX`
+Production RAG system for querying technical documentation. Hybrid retrieval (BM25 + kNN) with RRF fusion, cross-encoder reranking, two-stage structured answer generation, and conversational memory. Full stack: Vue frontend, FastAPI backend, Dockerised.
 
-Hybrid search RAG with multi-stage reranking and knowledge graph orchestration
-- 3-way retrieval fusion (BM25 + kNN + graph entity matching) with RRF
-- CrossEncoder + ColBERT reranking with table-title content linking
-- LangSmith-traced LangGraph state machine with local/cloud dual mode
+</td>
+<td width="50%" valign="top">
 
----
+### [LangChain_RAG](https://github.com/DCovenant/LangChain_RAG)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 
-**[MasterChief - ML Annotation Tool](https://github.com/DCovenant/MasterChief)**  
-`YOLO v4` `Qt` `OpenCV` `Active Learning`
+Evolution of the system above, migrated orchestration to a LangGraph state machine with typed transitions and breakpoint debugging. Added knowledge graph entity matching as a third retrieval path, table-title content linking, and LangSmith observability throughout.
 
-85% faster image labeling via semi-automatic annotation
-- Used in production manufacturing QC
-- 98% final model accuracy
-- Published research paper
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### [MasterChief](https://github.com/DCovenant/MasterChief)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-### 🧠 Learning Projects
+Active learning annotation tool: manual label → YOLOv4 training → automated annotation → human correction loop. Used in production manufacturing QC. Published research paper (2024).
 
-**[Neural Network from Scratch](https://github.com/DCovenant/smolNN)**  
-`NumPy only` `Backprop` `Gradient Descent`
+</td>
+<td width="50%" valign="top">
 
-Educational implementation demonstrating ML fundamentals  
-Custom optimization on Iris dataset with visualization
+### [fasterFileExplorer](https://github.com/DCovenant/fasterFileExplorer)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
----
+High-performance file search for network drives. Rust-based SQLite indexer with real-time monitoring and incremental updates. Sub-100ms search across large file systems.
 
-**[Encoder-Decoder from Scratch](https://github.com/DCovenant/smolEnconderDecoder)**  
-`Python` `NumPy` `LSTM` `Attention`
+</td>
+</tr>
+</table>
 
-Understanding LLM foundations by building seq2seq architecture
-- Custom backpropagation through time
-- Bahdanau attention mechanism
-- Teacher forcing & gradient descent from first principles
+<br/>
 
----
-
-### ⚡ High-Performance
-
-**[Faster File Explorer](https://github.com/DCovenant/fasterFileExplorer)**  
-`C++` `Qt` `Rust` `SQLite FTS5`
-
-Sub-100ms search across 100k+ files  
-Cross-platform desktop app with real-time indexing
-
----
-
-## 📊 Impact at a Glance
-
-| Metric | Value |
-|--------|-------|
-| Documents processed/month | 5,000+ |
-| Defect detection accuracy | 98% |
-| Annotation time reduction | 85% (40h → 8h) |
-| RAG response time (p95) | <3s |
-| Engineering hours saved/month | 200+ |
-
-## 📚 Publications
-
-- **"Semi-automatic Image Tagging for ML Workflows: A GUI for Industrial Applications"** (2024)
-
-## 💼 Open to Opportunities
-
-🌍 **Location:** Porto, Portugal (Open to Remote EU/US)  
-🎯 **Looking for:** AI/ML Engineer roles  
-💡 **Focus:** Production ML systems, RAG, Computer Vision, MLOps
-
----
+## Stack
 
 <div align="center">
 
-*Building AI that people actually use* 🚀
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
-![Profile Views](https://komarev.com/ghpvc/?username=DCovenant&color=blue&style=flat-square)
+</div>
+
+<br/>
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=DCovenant&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&hide=stars" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DCovenant&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=6" />
+
+</div>
+
+<br/>
+
+## Background
+
+Electrical and Computer Engineering graduate from ISEP. Currently sole AI engineer at SISINT, building document intelligence systems for industrial automation. Previously: backend and embedded Linux at Nonius, computer vision for manufacturing QC at Gislotica.
+
+<br/>
+
+<div align="center">
+
+*Porto, Portugal &nbsp;·&nbsp; Open to remote EU/US opportunities*
 
 </div>
