@@ -12,26 +12,7 @@
 
 <br/>
 
-I architect and ship end-to-end ML systems: OCR pipelines, hybrid search, LangGraph orchestration, and observable RAG in daily production use. Strong foundation in Python, retrieval architecture, and high-performance engineering when the problem demands it.
-
-<br/>
-
-## What I Build
-
-```
-  Documents  ──►  Extract  ──►  Index  ──►  Retrieve  ──►  Rerank  ──►  Generate  ──►  Answer
-```
-
-| Area | What |
-|------|------|
-| **RAG & Retrieval** | Hybrid search: BM25 + semantic vectors + knowledge graph, RRF fusion, cross-encoder reranking |
-| **Document Intelligence** | OCR pipelines for scanned engineering PDFs, custom Elasticsearch analyzers for technical terminology |
-| **LLM Orchestration** | LangGraph state machines with type-safe schemas, LangSmith tracing, deterministic control flow |
-| **High-Performance** | C++/Qt and Rust when Python isn't fast enough |
-
-<br/>
-
-## Featured Projects
+## Projects
 
 <table>
 <tr>
@@ -44,7 +25,7 @@ I architect and ship end-to-end ML systems: OCR pipelines, hybrid search, LangGr
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-Production RAG system for querying technical documentation. Hybrid retrieval (BM25 + kNN) with RRF fusion, cross-encoder reranking, two-stage structured answer generation, and conversational memory. Full stack: Vue frontend, FastAPI backend, Dockerised.
+Production RAG system for technical documentation. Hybrid BM25 + kNN retrieval, cross-encoder reranking, conversational memory. Full stack: Vue + FastAPI, dockerised.
 
 </td>
 <td width="50%" valign="top">
@@ -54,7 +35,7 @@ Production RAG system for querying technical documentation. Hybrid retrieval (BM
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 
-Evolution of the system above, migrated orchestration to a LangGraph state machine with typed transitions and breakpoint debugging. Added knowledge graph entity matching as a third retrieval path, table-title content linking, and LangSmith observability throughout.
+Evolution of the above — orchestration migrated to LangGraph state machines with LangSmith tracing. Knowledge graph as third retrieval path.
 
 </td>
 </tr>
@@ -65,7 +46,7 @@ Evolution of the system above, migrated orchestration to a LangGraph state machi
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-Active learning annotation tool: manual label → YOLOv4 training → automated annotation → human correction loop. Used in production manufacturing QC. Published research paper (2024).
+Active learning annotation tool for manufacturing QC. Manual label → YOLOv4 → automated annotation loop. Published paper (2024).
 
 </td>
 <td width="50%" valign="top">
@@ -74,7 +55,7 @@ Active learning annotation tool: manual label → YOLOv4 training → automated 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-High-performance file search for network drives. Rust-based SQLite indexer with real-time monitoring and incremental updates. Sub-100ms search across large file systems.
+High-performance file search for network drives. Rust-based SQLite indexer, sub-100ms across large file systems.
 
 </td>
 </tr>
@@ -119,18 +100,4 @@ High-performance file search for network drives. Rust-based SQLite indexer with 
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=DCovenant&theme=github-compact&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&hide_border=true" width="100%"/>
-</div>
-
-<br/>
-
-## Background
-
-Electrical and Computer Engineering graduate from ISEP. Currently sole AI engineer at SISINT, building document intelligence systems for industrial automation. Previously: backend and embedded Linux at Nonius, computer vision for manufacturing QC at Gislotica.
-
-<br/>
-
-<div align="center">
-
-*Porto, Portugal &nbsp;·&nbsp; Open to remote EU/US opportunities*
-
 </div>
