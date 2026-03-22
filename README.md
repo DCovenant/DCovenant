@@ -12,57 +12,6 @@
 
 <br/>
 
-## Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [RetrievalAugmentedGeneration](https://github.com/DCovenant/RetrievalAugmentedGeneration)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-Production RAG system for technical documentation. Hybrid BM25 + kNN retrieval, cross-encoder reranking, conversational memory. Full stack: Vue + FastAPI, dockerised.
-
-</td>
-<td width="50%" valign="top">
-
-### [LangChain_RAG](https://github.com/DCovenant/LangChain_RAG)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-
-Evolution of the above — orchestration migrated to LangGraph state machines with LangSmith tracing. Knowledge graph as third retrieval path.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [MasterChief](https://github.com/DCovenant/MasterChief)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-Active learning annotation tool for manufacturing QC. Manual label → YOLOv4 → automated annotation loop. Published paper (2024).
-
-</td>
-<td width="50%" valign="top">
-
-### [fasterFileExplorer](https://github.com/DCovenant/fasterFileExplorer)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-High-performance file search for network drives. Rust-based SQLite indexer, sub-100ms across large file systems.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 ## Stack
 
 **Languages**
