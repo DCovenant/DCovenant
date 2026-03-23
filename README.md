@@ -44,9 +44,3 @@
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DCovenant&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=6&hide=cmake,makefile" />
 
 </div>
-
-<br/>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DCovenant&theme=github-compact&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&hide_border=true" width="100%"/>
-</div>
